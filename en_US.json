@@ -1,0 +1,156 @@
+{
+    "general": {
+        "amount": "Amount",
+        "amount_received": "Amount received",
+        "amount_sent": "Amount sent",
+        "auto_refresh": "Auto-refresh",
+        "block": "Block ::: Blocks",
+        "block_height": "Block height",
+        "click_to_start": "Click to start",
+        "confirmation": "Confirmation ::: Confirmations",
+        "created": "Created",
+        "details": "Details",
+        "difficulty": "Difficulty",
+        "fee": "Fee ::: Fees",
+        "fees_per_kb": "Fees per KB",
+        "hash_rate": "Hash rate",
+        "key_image": "Key image",
+        "loading": "Loading",
+        "median_block_size": "Median block size",
+        "mining_reward": "Mining reward",
+        "mining_transactions": "Mining transaction",
+        "not_provided": "Not provided",
+        "pagination_load_more": "Load more",
+        "paused": "Paused",
+        "payment_id": "Payment ID",
+        "payment_id_8": "Payment ID 8",
+        "public_key": "Public key",
+        "search_placeholder": "Search transactions, blocks...",
+        "second": "Second ::: Seconds",
+        "secret_view_key": "Private/secret view key",
+        "size": "Size",
+        "size_in_kb": "Size in KB",
+        "stealth_address": "Stealth address",
+        "time": "Time",
+        "transaction_id": "Transaction ID",
+        "transaction": "Transaction ::: Transactions",
+        "transactions_total": "Total transactions",
+        "transactions_queued": "Queued transactions"
+    },
+    "forms": {
+        "deposit_address": "Your deposit address",
+        "enter_deposit_address": "Enter your deposit address...",
+        "secret_view_key": "Your secret view key",
+        "enter_secret_key": "Enter your secret key...",
+        "enter_transaction_id": "Enter the transaction ID...",
+        "recipient_address": "Recipient address",
+        "enter_recipient_address": "Enter the recipient's address..",
+        "secret_transaction_key": "Secret transaction key",
+        "enter_transaction_secret_key": "Enter the secret key of the transaction...",
+        "check_deposit": "Check deposit",
+        "get_receipt": "Get receipt",
+        "errors": {
+            "api_error_title": "Sorry, there was a problem. Here's what happened:",
+            "transaction_id": "Please enter a transaction ID.",
+            "monero_address": "Please enter a valid Monero address.",
+            "view_key": "Please enter a view key."
+        }
+    },
+    "nav": {
+        "receipts": "Receipts",
+        "deposits": "Deposits",
+        "blocks": "Blocks",
+        "queue": "Queue",
+        "info": "Info"
+    },
+    "error": {
+        "check_back_soon": "Check back soon...",
+        "load": "Sorry, technical problems. We can't show you any data right now."
+    },
+    "home": {
+    	"intro": "What would you like to do?",
+    	"para": "<a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> is a digital payment system focused on confidentiality. This tool allows you to easily browse public activity in the network.",
+    	"i_sent_monero": "I sent Monero",
+    	"i_received_monero": "I received Monero",
+    	"view_new_blocks": "View new blocks",
+    	"view_transaction_queue": "View transaction queue",
+    	"network_info_and_about": "Network info & about"
+    },
+    "blocks": {
+        "page_title": "Recent blocks",
+        "intro": "Recent blocks",
+        "para": "These are newly mined blocks with the latest transactions.",
+        "block_size_graph_info": "Block size compared to the median and maximum allowed."
+    },
+    "block": {
+        
+    },
+    "transaction": {
+        "confirmations_needed": "{count} needed to be complete.",
+        "no_block_assigned": "No block assigned yet",
+        "inputs": "{count} input (Deposit) ::: {count} inputs (Deposits)",
+        "no_inputs": "No inputs (Deposits)",
+        "outputs": "{count} output (Withdrawal) ::: {count} outputs (Withdrawals)",
+        "no_outputs": "No outputs (Withdrawals)",
+        "ring_member": "{count} ring member ::: {count} ring members",
+        "no_ring_members": "No ring members",
+        "get_send_receipt": "Get a send receipt",
+        "verify_deposit": "Verify deposit",
+        "status": {
+            "done": "Done!",
+            "queued": "Queued...",
+            "sending": "Sending..."
+        }
+    },
+    "mempool": {
+        "page_title": "Transaction queue",
+        "title": "Queued transactions",
+        "text": "These transactions are waiting to be processed and confirmed by the network. This is also known as the mempool."
+    },
+    "deposit": {
+        "page_title": "Deposit receipt",
+        "form": {
+            "title": "Check if a deposit was received",
+            "text": "Verify that a transaction included a deposit to a specific address, and see if has been confirmed by the network."
+        },
+        "result": {
+            "title": "Deposit confirmed",
+            "text": "This is a confirmation that a deposit was made. You can share this link with others as proof.",
+            "check_another_deposit": "Check another deposit"
+        }
+    },
+    "receipt": {
+        "page_title": "Send receipt",
+        "form": {
+            "title": "Get a transaction receipt",
+            "text": "Here you can prove that you sent Monero to a specific address. <a href=\"https://getmonero.org/resources/user-guides/prove-payment.html\" target=\"_blank\">View guide</a>."
+        },
+        "result": {
+            "title": "Transaction confirmed",
+            "text": "This is a receipt that a transaction has been sent. You can share this link with others as proof.",
+            "check_another_transaction": "Check another transaction"
+        }
+    },
+    "info": {
+        "page_title": "About Explore Monero",
+        "network_info": {
+            "title": "Network info",
+            "text": "Stats about the current state of the Monero network."
+        },
+        "about": {
+            "title": "About",
+            "text": "A peek behind the scenes."
+        },
+        "project_info": {
+            "title": "Project info",
+            "text": "This explorer is developed and designed by <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a>. Say hi on <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> for feedback, ideas, etc. Typically I use analytics tools to understand how people use websites, but since Monero is about privacy, there are no tracking services running. So you'll just have to let me know directly about improvements you'd like to see."
+        },
+        "data": {
+            "title": "Data",
+            "text": "All data is loaded from <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a> which runs on the <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>. Big thanks to all the contributors."
+        },
+        "donation": {
+            "title": "Donation address (Thank you!)"
+        }
+    }
+}
