@@ -5,7 +5,7 @@
         "amount_sent": "发送的金额",
         "auto_refresh": "自动刷新",
         "block": "区块",
-        "block_height": "区块高度",
+        "block_height": "当前高度",
         "click_to_start": "点此开始",
         "confirmation": "次确认",
         "created": "创建时间",
@@ -35,7 +35,7 @@
         "time": "时间",
         "transaction_id": "交易 ID",
         "transaction": "交易",
-        "transactions_total": "交易总量",
+        "transactions_total": "交易总数",
         "transactions_queued": "未确认交易"
     },
     "forms": {
@@ -58,8 +58,8 @@
         }
     },
     "nav": {
-        "receipts": "收款",
-        "deposits": "凭据",
+        "receipts": "凭据",
+        "deposits": "收款",
         "blocks": "区块",
         "queue": "队列",
         "info": "信息"
@@ -80,13 +80,13 @@
         "explore_the_network": "浏览网络"
     },
     "blocks": {
-        "page_title": "最近的区块",
-        "intro": "最近的区块",
+        "page_title": "最新区块",
+        "intro": "最新区块",
         "para": "以下为带有最新交易的新区块。",
-        "block_size_graph_info": "可以与区块大小中位数和最大值进行比较。"
+        "block_size_graph_info": "与区块大小中位数及最大值相比。"
     },
     "transaction": {
-        "text": "这是一笔交易公开的摘要。你可以使用下面的选项来解码地址和金额信息。",
+        "text": "这是一笔交易的公开摘要。你可以使用下面的选项来解码地址与金额信息。",
         "confirmations_needed": "还需 {count} 次确认。",
         "no_block_assigned": "尚未被确认",
         "inputs": "{count} 个输入 (发送)",
@@ -106,7 +106,7 @@
     "mempool": {
         "page_title": "交易队列",
         "title": "交易队列",
-        "text": "这些交易正在等待被网络确认。这个队列也被称为内存池。"
+        "text": "这些交易正在等待被网络确认。该队列也被称为内存池。"
     },
     "deposit": {
         "page_title": "检查收款",
@@ -144,14 +144,14 @@
         },
         "project_info": {
             "title": "项目信息",
-            "text": "本浏览器由 <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> 开发与设计，可以在 <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> 上向我问声好，或是进行反馈，分享想法等。往常我一般都会用分析工具去获取人们如何使用网站，但考虑到门罗币就是关于隐私的，本站没有运行任何跟踪服务，所以你得直接告诉我才知道你希望有什么东西需要改进。"
+            "text": "本浏览器由 <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> 开发与设计。你可以在 <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> 上跟我打个招呼，或是提供反馈、分享想法等。往常我都会用上分析工具去了解人们如何使用网站，但考虑到门罗币本身就致力于隐私保护，本站没有运行任何跟踪服务，进而如果你希望有什么地方需要改进的话，也得直接告诉我才行。"
         },
         "data": {
             "title": "数据",
-            "text": "所有的数据均来自 <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>，它基于 <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>。非常感谢所有的贡献者们。"
+            "text": "所有数据均来自 <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>，它基于 <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>。感谢所有的贡献者们。"
         },
         "donation": {
-            "title": "捐助地址（谢谢！）"
+            "title": "捐助地址 (谢谢！)"
         }
     }
 }
