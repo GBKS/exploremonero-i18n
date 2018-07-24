@@ -1,0 +1,157 @@
+{
+    "general": {
+        "amount": "金额",
+        "amount_received": "接收的金额",
+        "amount_sent": "发送的金额",
+        "auto_refresh": "自动刷新",
+        "block": "区块",
+        "block_height": "区块高度",
+        "click_to_start": "点此开始",
+        "confirmation": "确认数",
+        "created": "创建时间",
+        "details": "详情",
+        "difficulty": "难度",
+        "fee": "矿工费",
+        "fees_per_kb": "每 KB 矿工费率",
+        "hash_rate": "算力",
+        "key_image": "Key image",
+        "loading": "载入中",
+        "median_block_size": "区块大小中位数",
+        "mining_reward": "区块奖励",
+        "mining_transactions": "矿工交易",
+        "mining_reward_transaction": "区块奖励交易",
+        "not_provided": "未提供",
+        "pagination_load_more": "载入更多",
+        "paused": "已暂停",
+        "payment_id": "Payment ID",
+        "payment_id_8": "Payment ID 8",
+        "public_key": "公钥",
+        "search_placeholder": "搜索交易，区块…",
+        "second": "秒",
+        "secret_view_key": "视图私钥(view key)",
+        "size": "大小",
+        "size_in_kb": "大小 (KB)",
+        "stealth_address": "隐身地址",
+        "time": "时间",
+        "transaction_id": "交易 ID",
+        "transaction": "交易",
+        "transactions_total": "交易总量",
+        "transactions_queued": "未确认交易"
+    },
+    "forms": {
+        "deposit_address": "您的收款地址",
+        "enter_deposit_address": "输入您的收款地址…",
+        "secret_view_key": "您的视图私钥(view key)",
+        "enter_secret_key": "输入您的视图私钥…",
+        "enter_transaction_id": "输入交易 ID…",
+        "recipient_address": "收款地址",
+        "enter_recipient_address": "输入接收者的地址",
+        "secret_transaction_key": "交易私钥",
+        "enter_transaction_secret_key": "输入交易私钥…",
+        "check_deposit": "检查收款",
+        "get_receipt": "生成汇款凭据",
+        "errors": {
+            "api_error_title": "抱歉，现在遇到了某些问题：",
+            "transaction_id": "请输入交易 ID。",
+            "monero_address": "请输入一个有效的门罗币地址。",
+            "view_key": "请输入视图私钥。"
+        }
+    },
+    "nav": {
+        "receipts": "收款检查",
+        "deposits": "汇款凭据生成",
+        "blocks": "区块",
+        "queue": "队列",
+        "info": "信息"
+    },
+    "error": {
+        "check_back_soon": "请稍后重试…",
+        "load": "抱歉，由于技术问题，目前我们无法向您展示数据。"
+    },
+    "home": {
+      "intro": "请问您需要做什么？",
+      "para": "<a href=\"https://getmonero.org/\" target=\"_blank\">门罗币</a>是一个注重于隐私的电子支付系统。本工具可以让您轻松地浏览门罗币网络上的公共活动。",
+      "i_sent_monero": "我发送了门罗币",
+      "i_received_monero": "我接收了门罗币",
+      "view_new_blocks": "查看新区块",
+      "view_transaction_queue": "查看交易队列",
+      "network_info_and_about": "网络信息 & 关于",
+        "verify_a_transaction": "验证交易",
+        "explore_the_network": "浏览网络"
+    },
+    "blocks": {
+        "page_title": "最近的区块",
+        "intro": "最近的区块",
+        "para": "以下为带有最新交易的新区块。",
+        "block_size_graph_info": "可以与区块大小中位数和最大值进行比较。"
+    },
+    "transaction": {
+        "text": "这是一笔交易公开的摘要。你可以使用下面的选项来解码地址和金额信息。",
+        "confirmations_needed": "还需 {count} 次确认。",
+        "no_block_assigned": "尚未被确认",
+        "inputs": "{count} 个输入",
+        "no_inputs": "无输入",
+        "outputs": "{count} 个输出",
+        "no_outputs": "无输出",
+        "ring_member": "环上有 {count} 个成员",
+        "no_ring_members": "环上没有成员",
+        "get_send_receipt": "生成汇款凭据",
+        "verify_deposit": "验证收款",
+        "status": {
+            "done": "已完成！",
+            "queued": "等待确认…",
+            "sending": "正在发送…"
+        }
+    },
+    "mempool": {
+        "page_title": "交易队列",
+        "title": "交易队列",
+        "text": "这些交易正在等待被网络确认。这个队列也被称为内存池。"
+    },
+    "deposit": {
+        "page_title": "检查收款",
+        "form": {
+            "title": "检查某笔发送是否已送达",
+            "text": "验证某笔交易的输出包含了指定的门罗币地址，并检查其是否已被网络确认。"
+        },
+        "result": {
+            "title": "确认已收款",
+            "text": "这是对某笔发送已经送达的证明。你可以将本链接分享给他人作为证据。",
+            "check_another_deposit": "检查另一笔收款"
+        }
+    },
+    "receipt": {
+        "page_title": "汇款凭据",
+        "form": {
+            "title": "生成汇款凭据",
+            "text": "在此你可以证明你向某个指定的地址发送了门罗币。<a href=\"https://getmonero.org/resources/user-guides/prove-payment.html\" target=\"_blank\">阅读向导</a>。"
+        },
+        "result": {
+            "title": "交易已确认",
+            "text": "这是验证交易已被发送的凭据。你可以将本链接分享给他人作为证据。",
+            "check_another_transaction": "检查另一笔交易"
+        }
+    },
+    "info": {
+        "page_title": "关于 Explore Monero",
+        "network_info": {
+            "title": "网络信息",
+            "text": "门罗币当前的网络状态。"
+        },
+        "about": {
+            "title": "关于",
+            "text": "一瞥幕后。"
+        },
+        "project_info": {
+            "title": "项目信息",
+            "text": "本浏览器由 <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> 开发与设计，可以在 <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> 上向我问声好，或是进行反馈，分享想法等。往常我一般都会用分析工具去获取人们如何使用网站，但考虑到门罗币就是关于隐私的，本站没有运行任何跟踪服务，所以你得直接告诉我才知道你希望有什么东西需要改进。"
+        },
+        "data": {
+            "title": "数据",
+            "text": "所有的数据均来自 <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>，它基于 <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>。非常感谢所有的贡献者们。"
+        },
+        "donation": {
+            "title": "捐助地址（谢谢！）"
+        }
+    }
+}
