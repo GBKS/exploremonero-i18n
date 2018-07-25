@@ -1,0 +1,157 @@
+{
+    "general": {
+        "amount": "Kwota",
+        "amount_received": "Otrzymana kwota",
+        "amount_sent": "Wysłana kwota",
+        "auto_refresh": "Auto odświeżanie",
+        "block": "Blok ::: Bloki",
+        "block_height": "Wysokość bloku",
+        "click_to_start": "Kliknij, by rozpocząć",
+        "confirmation": "Potwierdzenie ::: Potwierdzenia",
+        "created": "Utworzono",
+        "details": "Szczegóły",
+        "difficulty": "Trudność",
+        "fee": "Prowizja ::: Prowizje",
+        "fees_per_kb": "Prowizja per KB",
+        "hash_rate": "Hashrate",
+        "key_image": "Obraz klucza",
+        "loading": "Ładowanie",
+        "median_block_size": "Mediana rozmiaru bloku",
+        "mining_reward": "Nagroda za wykopanie",
+        "mining_transactions": "Transakcje wykopujące",
+        "mining_reward_transaction": "Transakcja z nagrodą za wykopanie",
+        "not_provided": "Nie podano",
+        "pagination_load_more": "Wczytaj więcej",
+        "paused": "Zatrzymano",
+        "payment_id": "ID płatności",
+        "payment_id_8": "8-bajtowy ID płatności",
+        "public_key": "Klucz publiczny",
+        "search_placeholder": "Szukaj transakcji, bloków...",
+        "second": "Sekunda ::: Sekundy",
+        "secret_view_key": "Prywatny klucz tylko do odczytu",
+        "size": "Rozmiar",
+        "size_in_kb": "Rozmiar w KB",
+        "stealth_address": "Adres poufny",
+        "time": "Czas",
+        "transaction_id": "ID transakcji",
+        "transaction": "Transakcja ::: Transakcje",
+        "transactions_total": "Liczba transakcji",
+        "transactions_queued": "Transakcje w kolejce"
+    },
+    "forms": {
+        "deposit_address": "Twój adres depozytu",
+        "enter_deposit_address": "Podaj swój adres depozytu...",
+        "secret_view_key": "Twój klucz prywatny tylko do odbioru",
+        "enter_secret_key": "Podaj klucz prywatny...",
+        "enter_transaction_id": "Podaj ID transakcji...",
+        "recipient_address": "Adres portfela odbiorcy",
+        "enter_recipient_address": "Podaj adres odbiorcy..",
+        "secret_transaction_key": "Klucz prywatny transakcji",
+        "enter_transaction_secret_key": "Podaj klucz prywatny transakcji...",
+        "check_deposit": "Sprawdź otrzymanie depozytu",
+        "get_receipt": "Odbierz kwit transakcji",
+        "errors": {
+            "api_error_title": "Przepraszamy, napotkaliśmy problem. Oto co się stało:",
+            "transaction_id": "Podaj ID transakcji.",
+            "monero_address": "Podaj poprawny adres Monero.",
+            "view_key": "Podaj klucz tylko do odczytu."
+        }
+    },
+    "nav": {
+        "receipts": "Dowód nadania",
+        "deposits": "Potwierdzenie otrzymania",
+        "blocks": "Bloki",
+        "queue": "Kolejka",
+        "info": "Informacje"
+    },
+    "error": {
+        "check_back_soon": "Sprawdź za jakiś czas...",
+        "load": "Przepraszamy, mamy problemy techniczne. W obecnej chwili nie możemy wyświetlić żadnych danych."
+    },
+    "home": {
+    	"intro": "Co chciałbyś zrobić?",
+    	"para": "<a href=\"https://getmonero.org/pl\" target=\"_blank\">Monero</a> jest cyfrowym systemem płatności skupiającym się na poufności. To narzędzie ułatwi ci przeglądanie publicznej aktywności w sieci.",
+    	"i_sent_monero": "Wysłałem Monero",
+    	"i_received_monero": "Otrzymałem Monero",
+    	"view_new_blocks": "Wyświetl nowe bloki",
+    	"view_transaction_queue": "Wyświetl kolejkę transakcji",
+    	"network_info_and_about": "Informacje o sieci & o nas",
+        "verify_a_transaction": "Zweryfikuj transakcję",
+        "explore_the_network": "Eksploruj sieć"
+    },
+    "blocks": {
+        "page_title": "Ostatnie bloki",
+        "intro": "Ostatnie bloki",
+        "para": "To są ostatnio wykopane bloki z najnowszymi transakcjami.",
+        "block_size_graph_info": "Rozmiar bloku w porównaniu do mediany i dozwolonego maksimum."
+    },
+    "transaction": {
+        "text": "To jest podsumowanie publicznej transakcji. Możesz odkodować adres i kwotę używając poniższych opcji.",
+        "confirmations_needed": "{count} potwierdzeń potrzebnych do ukończenia.",
+        "no_block_assigned": "Jeszcze nie przypisano do bloku",
+        "inputs": "{count} wejście (Depozyt) ::: {count} wejść (Depozytów)",
+        "no_inputs": "Brak wejść (Depozytów)",
+        "outputs": "{count} wyjście (Wypłata) ::: {count} wyjść (Wypłat)",
+        "no_outputs": "Brak wyjść (Wypłat)",
+        "ring_member": "{count} członek pierścienia ::: {count} członków pierścienia",
+        "no_ring_members": "Brak członków pierścienia",
+        "get_send_receipt": "Odbierz kwit transakcji",
+        "verify_deposit": "Zweryfikuj otrzymanie depozytu",
+        "status": {
+            "done": "Zrobione!",
+            "queued": "W kolejce...",
+            "sending": "Wysyłanie..."
+        }
+    },
+    "mempool": {
+        "page_title": "Kolejka transakcji",
+        "title": "Transakcje w kolejce",
+        "text": "Te transakcje czekają na bycie przetworzonymi i potwierdzonymi przez sieć. Zwane jest to także jako mempool."
+    },
+    "deposit": {
+        "page_title": "Potwierdzenie otrzymania",
+        "form": {
+            "title": "Sprawdź czy depozyt zostały otrzymany",
+            "text": "Zweryfikuj że transakcja zawierała depozyt dla konkretnego adresu oraz że została zaakceptowana przez sieć."
+        },
+        "result": {
+            "title": "Depozyt potwierdzony",
+            "text": "To jest potwierdzenie otrzymania depozytu. Możesz podzielić się tym linkiem z innymi jako dowodem.",
+            "check_another_deposit": "Sprawdź inny depozyt"
+        }
+    },
+    "receipt": {
+        "page_title": "Dowód nadania",
+        "form": {
+            "title": "Otrzymaj kwit tranksakcji",
+            "text": "Tutaj możesz potwierdzić że wysłałeś Monero na konkretny adres. <a href=\"https://getmonero.org/pl/resources/user-guides/prove-payment.html\" target=\"_blank\">Wyświetl poradnik</a>."
+        },
+        "result": {
+            "title": "Transakcja potwierdzona",
+            "text": "To jest kwit potwierdzający, że transakcja została przesłana. Możesz podzielić się tym linkiem z innymi jako dowodem.",
+            "check_another_transaction": "Sprawdź inną transakcję"
+        }
+    },
+    "info": {
+        "page_title": "O Explore Monero",
+        "network_info": {
+            "title": "Informacje o sieci",
+            "text": "Statystyki o obecnym stanie sieci Monero."
+        },
+        "about": {
+            "title": "O nas",
+            "text": "Za kulisami naszej działalności."
+        },
+        "project_info": {
+            "title": "Informacje o projekcie",
+            "text": "Ten eksplorator jest zaprojektowany i rozwijany przez <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a>. Zagadaj mnie na <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitterze</a> dzieląc się opinią, pomysłami, itp. Zazwyczaj używam narzędzi analitycznych, by zrozumieć jak ludzie korzystają ze stron internetowych, ale jako że w Monero chodzi o prywatność, nie ma tu żadnych serwisów śledzących ruch. Będziecie więc musieli dać mi znać bezpośrednio jakie zmiany chcielibyście tu zobaczyć."
+        },
+        "data": {
+            "title": "Dane",
+            "text": "Wszystkie dane ładowane są z <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a> opierającym się na <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>. Wielkie podziękowania dla wszystkich współtwórców."
+        },
+        "donation": {
+            "title": "Adres darowizny (Dziękuję!)"
+        }
+    }
+}
