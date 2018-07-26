@@ -150,6 +150,9 @@
             "title": "Dane",
             "text": "Wszystkie dane ładowane są z <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a> opierającym się na <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>. Wielkie podziękowania dla wszystkich współtwórców."
         },
+        "contributors": {
+            "title": "Tłumacze"
+        },
         "donation": {
             "title": "Adres darowizny (Dziękuję!)"
         }
