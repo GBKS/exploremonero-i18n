@@ -3,7 +3,7 @@
         "amount": "Betrag",
         "amount_received": "Empfangener Betrag",
         "amount_sent": "Gesendeter Betrag",
-        "auto_refresh": "Auto-Aktualisierung",
+        "auto_refresh": "Automatische Aktualisierung",
         "block": "Block ::: Blöcke",
         "block_height": "Blockhöhe",
         "click_to_start": "Klicke, um zu beginnen",
@@ -14,8 +14,8 @@
         "fee": "Gebühr ::: Gebühren",
         "fees_per_kb": "Gebühren pro KB",
         "hash_rate": "Hash-Rate",
-        "key_image": "Key image",
-        "loading": "laden",
+        "key_image": "Key-Image",
+        "loading": "Laden...",
         "median_block_size": "Mittlere Blockgröße",
         "mining_reward": "Mining Belohnung",
         "mining_transactions": "Mining Transaktionen",
@@ -42,19 +42,19 @@
         "deposit_address": "Deine Einzahlungs-Adresse",
         "enter_deposit_address": "Trage deine Einzahlungs-Adresse ein...",
         "secret_view_key": "Dein Geheimer View-Key",
-        "enter_secret_key": "Gib deinen Secret Key ein...",
+        "enter_secret_key": "Gib deinen Secret-Key ein...",
         "enter_transaction_id": "Gib die Transaktions-ID ein...",
         "recipient_address": "Empfängeradressen",
         "enter_recipient_address": "Gib die Adresse des Empfängers ein..",
         "secret_transaction_key": "Geheimer Transaktions-Key",
-        "enter_transaction_secret_key": "Gib den Secret Key der Transaktion ein...",
+        "enter_transaction_secret_key": "Gib den Secret-Key der Transaktion ein...",
         "check_deposit": "Guthaben überprüfen",
         "get_receipt": "Beleg erhalten",
         "errors": {
-            "api_error_title": "Entschuldigung, es ist ein Problem aufgetreten. Folgendes ist passiert:",
+            "api_error_title": "Es ist ein Problem aufgetreten. Das tut uns Leid! Folgendes ist passiert:",
             "transaction_id": "Bitte gib eine Transaktions-ID ein.",
             "monero_address": "Bitte gib eine gültige Monero Adresse ein.",
-            "view_key": "Bitte gib einen View Key ein."
+            "view_key": "Bitte gib einen View-Key ein."
         }
     },
     "nav": {
@@ -66,28 +66,28 @@
     },
     "error": {
         "check_back_soon": "Schau später nochmal vorbei...",
-        "load": "Entschuldigung, technische Störing. Im Moment können wir dir keine Daten zeigen."
+        "load": "Technische Störung. Tut uns Leid, im Moment können wir dir keine Daten zeigen."
     },
     "home": {
     	"intro": "Was würdest du gerne tun?",
-    	"para": "<a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> ist ein digitales Bezahlsystem das auf Vetraulichkeit fokussiert ist. Dieses Programm hilft dir, die öffentliche Netzwerkaktivität leicht zu durchsuchen.",
+    	"para": "<a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> ist ein digitales Bezahlsystem, das auf Vetraulichkeit fokussiert ist. Diese Webseite hilft dir dabei, die öffentliche Netzwerkaktivität zu durchsuchen.",
     	"i_sent_monero": "Ich habe Monero gesendet",
     	"i_received_monero": "Ich habe Monero erhalten",
     	"view_new_blocks": "Zeige neue Blöcke",
     	"view_transaction_queue": "Zeige Transaktions-Warteschlange",
-    	"network_info_and_about": "Netzwerk Info & Über",
+    	"network_info_and_about": "Netzwerk Informationen & Über",
         "verify_a_transaction": "Verifiziere eine Transaktion",
         "explore_the_network": "Erkunde das Netzwerk"
     },
     "blocks": {
         "page_title": "Neue Blöcke",
         "intro": "Neue Blöcke",
-        "para": "Dies sind Blöcke, die kürzlich gemined wurden, mit den neuesten Transaktionen.",
+        "para": "Hier findest du Blöcke, die kürzlich gemined wurden. Sie enthalten die neuesten Transaktionen.",
         "block_size_graph_info": "Blockgröße im Vergleich zum Mittel und erlaubtem Maximum."
     },
     "transaction": {
-        "text": "Dies ist eine öffentliche Zusammenfassung der Transaktion. Du kannst die Adresse und Informationen über Beträge mit den Optionen unten dekodieren.",
-        "confirmations_needed": "Benötigt {count} um abgeschlossen zu sein.",
+        "text": "Hier findest du die öffentliche Zusammenfassung der Transaktion. Du kannst die Adresse sowie Informationen über Beträge mit den untenstehenden Optionen dekodieren.",
+        "confirmations_needed": "Benötigt {count} bis zur Akzeptanz.",
         "no_block_assigned": "In noch keinem Block enthalten.",
         "inputs": "{count} Input (Einzahlungen) ::: {count} Inputs (Einzahlungen)",
         "no_inputs": "Kein Input (Einzahlung)",
@@ -98,7 +98,7 @@
         "get_send_receipt": "Erhalte Sendebeleg",
         "verify_deposit": "Verifiziere Einzahlung",
         "status": {
-            "done": "Erledigt!",
+            "done": "Akzeptiert!",
             "queued": "In Warteschlange...",
             "sending": "Senden..."
         }
@@ -106,7 +106,7 @@
     "mempool": {
         "page_title": "Transaktions-Warteschlange",
         "title": "Transaktionen in der Warteschlange",
-        "text": "Diese Transaktionen warten darauf, vom Netzwerk verarbeitet und bestätigt zu werden. Das ist auch als Mempool bekannt."
+        "text": "Die Transaktionen hier warten darauf, vom Netzwerk verarbeitet und bestätigt zu werden. Sie sind auch als Mempool bekannt."
     },
     "deposit": {
         "page_title": "Einzahlungsbeleg",
@@ -116,8 +116,8 @@
         },
         "result": {
             "title": "Einzahlung bestätigt",
-            "text": "Dies ist die Bestätigung, dass die Einzahlung erfolgt ist. Du kannst diesen Link als Beweis mit anderen teilen.",
-            "check_another_deposit": "Überprüfe eine andere Einzahlung"
+            "text": "Dies ist die Bestätigung, dass die Einzahlung erfolgt ist. Als Beweis kannst du kannst diesen Link mit anderen teilen.",
+            "check_another_deposit": "Überprüfe eine weitere Einzahlung"
         }
     },
     "receipt": {
@@ -128,12 +128,12 @@
         },
         "result": {
             "title": "Transaktion bestätigt",
-            "text": "Dies ist der Beleg, dass die Transaktion versendet wurde. Du kannst diesen Link als Beweis mit anderen teilen.",
-            "check_another_transaction": "Überprüfe eine andere Transaktion"
+            "text": "Dies ist der Beleg, dass die Transaktion versendet wurde. Als Beweis kannst du kannst diesen Link mit anderen teilen.",
+            "check_another_transaction": "Überprüfe eine weitere Transaktion"
         }
     },
     "info": {
-        "page_title": "Über Explore Monero",
+        "page_title": "Über ExploreMonero",
         "network_info": {
             "title": "Netzwerk Info",
             "text": "Statistiken über den derzeitigen Status des Monero Netzwerks."
@@ -144,7 +144,7 @@
         },
         "project_info": {
             "title": "Projekt Info",
-            "text": "Der Monero Explorer wurde von <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> entwickelt und designed. Sag Hallo auf <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> um Feedback, Ideen etc. zu geben. Normalerweise verwende ich Analysewesoftware um zu verstehen, wie meine Websiten verwendet werden, aber da Monero auf Privatssphäre aus ist habe ich keine Tracking-Software laufen. Falls es Verbesserungsbedarf gibt sag es mir am besten einfach persönlich."
+            "text": "Der Monero Explorer wurde von <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> entwickelt und designed. Sag Hallo auf <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> um Feedback, Ideen etc. zu geben. Normalerweise verwende ich Analysewesoftware um besser zu verstehen, wie meine Websiten verwendet werden, aber da Monero auf Privatssphäre aus ist habe ich keine Tracking-Software laufen. Falls es Verbesserungsbedarf gibt sag es mir am besten einfach persönlich."
         },
         "data": {
             "title": "Daten",
