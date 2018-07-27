@@ -17,8 +17,9 @@
         "key_image": "Chave imagem",
         "loading": "Carregando",
         "median_block_size": "Tamanho médio do bloco",
-        "mining_reward": "Recompensa de mineração",
+        "mining_reward": "Recompensa da mineração",
         "mining_transactions": "Transação de mineração",
+        "mining_reward_transaction": "Transação da recompensa da mineração",
         "not_provided": "Não fornecido",
         "pagination_load_more": "Carregar mais",
         "paused": "Pausado",
@@ -68,13 +69,15 @@
         "load": "Desculpe, ocorreu um problema técnico. Não podemos exibir os dados no momento."
     },
     "home": {
-        "intro": "O que você gostaria de verificar?",
+        "intro": "O que deseja verificar?",
         "para": "<a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> é um sistema de pagamento digital com foco em confidencialidade. Essa ferramenta te permite navegar facilmente pelas atividades públicas da rede.",
         "i_sent_monero": "Eu enviei Monero",
         "i_received_monero": "Eu recebi Monero",
         "view_new_blocks": "Ver novos blocos",
         "view_transaction_queue": "Ver fila de transações",
-        "network_info_and_about": "Informações da rede & sobre"
+        "network_info_and_about": "Informações da rede & sobre",
+        "verify_a_transaction": "Verificar uma transação",
+        "explore_the_network": "Explore a rede Monero"
     },
     "blocks": {
         "page_title": "Blocos recentes",
@@ -83,6 +86,7 @@
         "block_size_graph_info": "Tamanho do bloco comparado à mediana e ao máximo permitido."
     },
     "transaction": {
+        "text": "Esse é o resumo público da transação. Você pode decodificar o endereço e valor usando uma das opções abaixo.",
         "confirmations_needed": "{count} para finalizar.",
         "no_block_assigned": "Ainda não foi atribuída a um bloco",
         "inputs": "{count} entrada (depósito) ::: {count} entradas (depósitos)",
@@ -145,6 +149,9 @@
         "data": {
             "title": "Dados",
             "text": "Todos os dados são obtidos do <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a> que utiliza o <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>. Muito obrigado a todos os contribuintes."
+        },
+        "contributors": {
+            "title": "Tradutores"
         },
         "donation": {
             "title": "Endereço para doações (obrigado!)"
