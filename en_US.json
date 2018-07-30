@@ -85,6 +85,10 @@
         "para": "These are newly mined blocks with the latest transactions.",
         "block_size_graph_info": "Block size compared to the median and maximum allowed."
     },
+    "block": {
+        "intro": "Block details",
+        "para": "Block and transaction details."
+    },
     "transaction": {
         "text": "This is a public transaction summary. You can decode address and amount information with the options below.",
         "confirmations_needed": "{count} needed to be complete.",
