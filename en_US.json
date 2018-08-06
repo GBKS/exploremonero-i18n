@@ -24,7 +24,7 @@
         "pagination_load_more": "Load more",
         "paused": "Paused",
         "payment_id": "Payment ID",
-        "payment_id_8": "Payment ID 8",
+        "payment_id_8": "Payment ID (8-Byte)",
         "public_key": "Public key",
         "search_placeholder": "Search transactions, blocks...",
         "second": "Second ::: Seconds",
