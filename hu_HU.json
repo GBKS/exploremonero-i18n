@@ -1,0 +1,164 @@
+{
+    "general": {
+        "amount": "Mennyiség",
+        "amount_received": "Beérkezett összeg",
+        "amount_sent": "Elküldött összeg",
+        "auto_refresh": "Automatikus frissítés",
+        "block": "Blokk ::: Blokkok",
+        "block_height": "Blokklánc hossza",
+        "click_to_start": "Kattints az indításhoz",
+        "confirmation": "megerősítés ::: megerősítés",
+        "created": "Létrehozva",
+        "details": "Részletek",
+        "difficulty": "Nehézség",
+        "fee": "Díj ::: Díjak",
+        "fees_per_kb": "Díj per KB",
+        "hash_rate": "Hashrate",
+        "key_image": "Kulcskép",
+        "loading": "Betöltés",
+        "median_block_size": "Blokkméret mediánértéke",
+        "mining_reward": "Bányászási jutalom",
+        "mining_transactions": "Bányászási tranzakciók",
+        "mining_reward_transaction": "Bányászási jutalom tranzakciója",
+        "not_provided": "Nincsen",
+        "pagination_load_more": "Több...",
+        "paused": "Szüneteltetve",
+        "payment_id": "Fizetési azonosító",
+        "payment_id_8": "Fizetési azonosító (8-byte)",
+        "public_key": "Nyilvános kulcs",
+        "search_placeholder": "Tranzakciók, blokkok keresése...",
+        "second": "másodperc ::: másodperc",
+        "secret_view_key": "Privát/titkos figyelőkulcs",
+        "size": "Méret",
+        "size_in_kb": "Méret KB-ban",
+        "stealth_address": "Rejtett cím",
+        "time": "Időpont",
+        "transaction_id": "Tranzakcióazonosító",
+        "transaction": "Tranzakció ::: Tranzakció",
+        "transactions_total": "Összes tranzakció",
+        "transactions_queued": "Tranzakciók várólistán"
+    },
+    "forms": {
+        "deposit_address": "Befizetési címed",
+        "enter_deposit_address": "Add meg a befizetési címed...",
+        "secret_view_key": "Titkos figyelőkulcsod",
+        "enter_secret_key": "Add meg a titkos figyelőkulcsod...",
+        "enter_transaction_id": "Add meg a tranzakcióazonosítót...",
+        "recipient_address": "Kedvezményezett címe",
+        "enter_recipient_address": "Add meg a kedvezményezett címét...",
+        "secret_transaction_key": "Titkos tranzakciókulcs",
+        "enter_transaction_secret_key": "Add meg a tranzakció titkos kulcsát...",
+        "check_deposit": "Befizetés ellenőrzése",
+        "get_receipt": "Bizonylat beszerzése",
+        "errors": {
+            "api_error_title": "Elnézést, probléma merült fel. Íme, mi történt:",
+            "transaction_id": "Kérlek, adj meg tranzakcióazonosítót.",
+            "monero_address": "Kérlek, adj meg érvényes Monero-címet.",
+            "view_key": "Kérlek, adj meg figyelőkulcsot."
+        }
+    },
+    "nav": {
+        "receipts": "Bizonylatok",
+        "deposits": "Befizetések",
+        "blocks": "Blokkok",
+        "queue": "Várólista",
+        "info": "Információ"
+    },
+    "error": {
+        "check_back_soon": "Látogass vissza később...",
+        "load": "Elnézést, technikai probléma lépett fel, így semmilyen adatot nem tudunk megjeleníteni."
+    },
+    "home": {
+    	"intro": "Mit szeretnél csinálni?",
+    	"para": "A <a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> egy anonimitásra specializálódott digitális fizetőeszköz. A weboldal használatával könnyedén böngészhetsz a hálózaton belüli nyilvános tevékenységek között.",
+    	"i_sent_monero": "Monerót küldtem",
+    	"i_received_monero": "Monerót kaptam",
+    	"view_new_blocks": "Új blokkok",
+    	"view_transaction_queue": "Tranzakciós várólista",
+    	"network_info_and_about": "Hálózati információ és névjegy",
+        "verify_a_transaction": "Igazolj egy tranzakciót",
+        "explore_the_network": "Fedezd fel a hálózatot"
+    },
+    "blocks": {
+        "page_title": "Legutóbbi blokkok",
+        "intro": "Legutóbbi blokkok",
+        "para": "Ezek az újonnan bányászott, legutóbbi tranzakciókat tartalmazó blokkok.",
+        "block_size_graph_info": "Blokkméret a mediánértékhez és az engedélyezett maximumhoz képest."
+    },
+    "block": {
+        "intro": "Blokkrészletek",
+        "para": "Blokk- és tranzakciórészletek."
+    },
+    "transaction": {
+        "text": "Ez egy nyilvános tranzakció-összefoglalás. A címekre és összegekre vonatkozó információkat a lentebb található funkciókkal dekódolhatod.",
+        "confirmations_needed": "{count} kell a teljesítéshez.",
+        "no_block_assigned": "Még nincs blokk hozzárendelve",
+        "inputs": "{count} bemenet (befizetés) ::: {count} bemenet (befizetés)",
+        "no_inputs": "Nincsenek bemenetek (befizetések)",
+        "outputs": "{count} kimenet (kivét) ::: {count} kimenet (kivét)",
+        "no_outputs": "Nincsenek kimenetek (kivétek)",
+        "ring_member": "{count} gyűrűtag ::: {count} gyűrűtag",
+        "no_ring_members": "Nincsenek gyűrűtagok",
+        "get_send_receipt": "Küldési bizonylat beszerzése",
+        "verify_deposit": "Befizetés igazolása",
+        "status": {
+            "done": "Kész!",
+            "queued": "Várakozás...",
+            "sending": "Küldés..."
+        }
+    },
+    "mempool": {
+        "page_title": "Tranzakciós várólista",
+        "title": "Várakozó tranzakciók",
+        "text": "Ezek a tranzakciók várakoznak a hálózat általi feldolgozásra és megerősítésre. Ez az úgynevezett mempool."
+    },
+    "deposit": {
+        "page_title": "Befizetési bizonylat",
+        "form": {
+            "title": "Befizetés megérkeztének ellenőrzése",
+            "text": "Ellenőrizd, hogy egy tranzakció tartalmazott-e befizetést egy meghatározott címre, illetve hogy az megerősítésre került-e a hálózat által."
+        },
+        "result": {
+            "title": "Befizetés megerősítve",
+            "text": "Ez egy megerősítés arra, hogy a befizetés megtörtént. Bizonyítékként oszd meg a linket másokkal.",
+            "check_another_deposit": "Másik befizetés ellenőrzése"
+        }
+    },
+    "receipt": {
+        "page_title": "Küldési bizonylat",
+        "form": {
+            "title": "Tranzakciós bizonylat beszerzése",
+            "text": "Itt bizonyíthatod, hogy küldtél Monerót egy meghatározott címre. <a href=\"https://getmonero.org/resources/user-guides/prove-payment.html\" target=\"_blank\"Útmutató megtekintése</a>."
+        },
+        "result": {
+            "title": "Tranzakció megerősítve",
+            "text": "Ez egy bizonylat arra, hogy a tranzakció elküldésre került. Bizonyítékként oszd meg a linket másokkal.",
+            "check_another_transaction": "Másik tranzakció ellenőrzése"
+        }
+    },
+    "info": {
+        "page_title": "Explore Monero névjegy",
+        "network_info": {
+            "title": "Hálózati információ",
+            "text": "A Monero-hálózat jelenlegi állapotának adatai."
+        },
+        "about": {
+            "title": "Névjegy",
+            "text": "Betekintés a színfalak mögé."
+        },
+        "project_info": {
+            "title": "Projektinformációk",
+            "text": "A weboldalt <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> tervezi és fejleszti. Visszajelzéseket, ötleteket stb. <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a>en közölhetsz meg. Általában elemzési eszközöket alkalmazok a weboldalhasználati szokások megértésére, de mivel a Monero a titkosságról szól, így nincsenek nyomonkövetési szolgáltatások használatban. Javítási és fejlesztési ötleteidet ezáltal közvetlen módon kell tudatnod velem."
+        },
+        "data": {
+            "title": "Adatok",
+            "text": "Minden adat az <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a> alapú <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a> weboldalról származik. Hatalmas köszönet minden közreműködőnek."
+        },
+        "contributors": {
+            "title": "Honosítások közreműködői"
+        },
+        "donation": {
+            "title": "Adományozási cím (köszönöm!)"
+        }
+    }
+}
