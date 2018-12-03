@@ -1,0 +1,160 @@
+{
+    "general": {
+        "amount": "Bedrag",
+        "amount_received": "Ontvangen Bedrag",
+        "amount_sent": "Verzonden Bedrag",
+        "auto_refresh": "Automatisch verversen",
+        "block": "Blok ::: Blokken",
+        "block_height": "Blokhoogte",
+        "click_to_start": "Klik, om te starten",
+        "confirmation": "Bevestigen",
+        "created": "Aangemaakt",
+        "details": "Details",
+        "difficulty": "Moeilijkheid",
+        "fee": "Fee ::: Fee's",
+        "fees_per_kb": "Fee's per KB",
+        "hash_rate": "Hashrate",
+        "key_image": "Key-Image",
+        "loading": "Laden...",
+        "median_block_size": "Gemiddelde blokgrootte",
+        "mining_reward": "Mining Beloning",
+        "mining_transactions": "Mining Transacties",
+        "mining_reward_transaction": "Mining Belongings-Transactie",
+        "not_provided": "Niet beschikbaar",
+        "pagination_load_more": "Meer laden",
+        "paused": "Gepauseerd",
+        "payment_id": "Betalings-ID",
+        "payment_id_8": "Betalings-ID 8",
+        "public_key": "Public Key",
+        "search_placeholder": "Zoek Transacties, Blokken...",
+        "second": "Seconde ::: Seconden",
+        "secret_view_key": "Geheime View-Key",
+        "size": "Grootte",
+        "size_in_kb": "Grootte in KB",
+        "stealth_address": "Stealth Adresse",
+        "time": "Tijd",
+        "transaction_id": "Transactie-ID",
+        "transaction": "Transactie",
+        "transactions_total": "Transactie totaal",
+        "transactions_queued": Transacties in behandeling"
+    },
+    "forms": {
+        "deposit_address": "Uw stortings-address",
+        "enter_deposit_address": "Voer uw depotadres in...",
+        "secret_view_key": "Uw geheime View-Key",
+        "enter_secret_key": "Voer uw Secret-Key in...",
+        "enter_transaction_id": "Voer uw Transactie-ID in...",
+        "recipient_address": "Ontvangersadres",
+        "enter_recipient_address": "Voer het adres van de ontvanger in...",
+        "secret_transaction_key": "Geheime Transactie-sleutel",
+        "enter_transaction_secret_key": "Voer de geheime sleutel van de transactie in...",
+        "check_deposit": "Controleer tegoed",
+        "get_receipt": "Ontvangstbewijs",
+        "errors": {
+            "api_error_title": "Er is een probleem het spijt ons! Het volgende gebeurde:",
+            "transaction_id": "Voer een transactie-ID in.",
+            "monero_address": "Voer een geldig Monero-adres in.",
+            "view_key": "Voer een kijksleutel View-Key in."
+        }
+    },
+    "nav": {
+        "receipts": "Ontvangsbewijs",
+        "deposits": "Opbrengst",
+        "blocks": "Blokken",
+        "queue": "Wachtrij",
+        "info": "Info"
+    },
+    "error": {
+        "check_back_soon": "Kom later terug...",
+        "load": "Technische fout. Sorry, we kunnen u op dit moment geen gegevens tonen."
+    },
+    "home": {
+    	"intro": Wat wil je doen?",
+    	"para": "<a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> is een digitaal betalingssysteem gericht op vertrouwelijkheid. Deze website helpt u bij het zoeken naar de openbare netwerkactiviteiten.",
+    	"i_sent_monero": "Ik heb Monero verzonden",
+    	"i_received_monero": "Ik heb Monero ontvangen",
+    	"view_new_blocks": "Toon nieuwe blokken",
+    	"view_transaction_queue": "Toon transactiewachtrij",
+    	"network_info_and_about": "Netwerkinformatie & Info",
+        "verify_a_transaction": "Verifieer een transactie",
+        "explore_the_network": "Verken het netwerk"
+    },
+    "blocks": {
+        "page_title": "Nieuwe blokken",
+        "intro": "Nieuwe blokken",
+        "para": "Hier zijn vind je de blokken die onlangs gemined zijn. Ze bevatten de nieuwste transacties.",
+        "block_size_graph_info": "Blokgrootte vergeleken met gemiddeld en toegestaan maximum."
+    },
+    "transaction": {
+        "text": "Hier is de openbare samenvatting van de transactie. U kunt het adres en de hoeveelheid informatie decoderen met behulp van de onderstaande opties.",
+        "confirmations_needed": "Vereist {count} tot acceptatie.",
+        "no_block_assigned": "In geen enkel blok inbegrepen.",
+        "inputs": "{count} Input (opbrengst) ::: {count} Inputs (opbrengst)",
+        "no_inputs": "Geen Input (opbrengst)",
+        "outputs": "{count} Output (opbrengst) ::: {count} Outputs (opbrengst)",
+        "no_outputs": "Geen output (uitbetaling)",
+        "ring_member": "{count} Ring-Member ::: {count} Ring-Members",
+        "no_ring_members": "Geen Ring-Member",
+        "get_send_receipt": "Ontvang een zendbewijs ",
+        "verify_deposit": "Verifieer de storting",
+        "status": {
+            "done": "Geaccepteerd!",
+            "queued": "In de wachtrij...",
+            "sending": "Aan het verzenden..."
+        }
+    },
+    "mempool": {
+        "page_title": "Transactie-wachtrij",
+        "title": "Transacties in de wachtrij",
+        "text": "De transacties hier wachten op verwerking en erkenning door het netwerk. Dit is ook wel bekend als Mempool."
+    },
+    "deposit": {
+        "page_title": "Stortingsbewijs",
+        "form": {
+            "title": "Controleer of een betaling is ontvangen",
+            "text": "Controleer of een transactie een storting bevat naar een specifiek adres en dat deze is gevalideerd door het netwerk."
+        },
+        "result": {
+            "title": "Betaling bevestigd",
+            "text": "Dit is de bevestiging dat de betaling is gedaan. Als bewijs kunt u deze link met anderen delen.",
+            "check_another_deposit": "Check een andere betaling"
+        }
+    },
+    "receipt": {
+        "page_title": "Verzendbewijs",
+        "form": {
+            "title": "Krijg een verzendbewijs",
+            "text": "Hier kun je bewijzen dat je Monero naar een specifiek adres hebt gestuurd. <a href=\"https://getmonero.org/resources/user-guides/prove-payment.html\" target=\"_blank\">Bekijk handleiding</a>."
+        },
+        "result": {
+            "title": "Transactie bevestigd",
+            "text": "Dit is het ontvangstbewijs dat de transactie is verzonden. Als bewijs kunt u deze link met anderen delen.",
+            "check_another_transaction": "Controleer een andere transactie"
+        }
+    },
+    "info": {
+        "page_title": "Over Explore Monero",
+        "network_info": {
+            "title": "Netwerk info",
+            "text": "Statistieken over de huidige staat van het Monero netwerk"
+        },
+        "about": {
+            "title": "Over",
+            "text": "Een kijkje achter de schermen."
+        },
+        "project_info": {
+            "title": "Project Info",
+            "text": "Deze verkenner is ontwikkeld en ontworpen door <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> . Zeg Hallo op <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> voor feedback, ideen etc. Normaal gebruik ik Analysewesoftware om te zien hoe mensen websites gebruiken, maar aangezien Monero om privacy gaat zijn er geen trackingservices. Laat het me direct weten als je verbeteringen wilt zien."
+        },
+        "data": {
+            "title": "Data",
+            "text": "Alle data komt van <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>, welches den <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a> verwendet. Ein herzliches Dankeschön an alle Mitwirkenden."
+        },
+        "contributors": {
+            "title": "Vertalers"
+        },
+        "donation": {
+            "title": "Donatie adres (Heel erg bedankt!)"
+        }
+    }
+}
