@@ -148,7 +148,7 @@
         },
         "data": {
             "title": "Data",
-            "text": "Alle data komt van <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>, welches den <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a> verwendet. Ein herzliches Dankeschön an alle Mitwirkenden."
+            "text": "Alle data komt van <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>, welke draait op de <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>. Hartelijk bedankt aan alle bijdragers."
         },
         "contributors": {
             "title": "Vertalers"
