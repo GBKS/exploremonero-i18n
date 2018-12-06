@@ -36,7 +36,7 @@
         "transaction_id": "Transactie-ID",
         "transaction": "Transactie",
         "transactions_total": "Transactie totaal",
-        "transactions_queued": Transacties in behandeling"
+        "transactions_queued": "Transacties in behandeling"
     },
     "forms": {
         "deposit_address": "Uw stortings-address",
@@ -69,7 +69,7 @@
         "load": "Technische fout. Sorry, we kunnen u op dit moment geen gegevens tonen."
     },
     "home": {
-    	"intro": Wat wil je doen?",
+    	"intro": "Wat wil je doen?",
     	"para": "<a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> is een digitaal betalingssysteem gericht op vertrouwelijkheid. Deze website helpt u bij het zoeken naar de openbare netwerkactiviteiten.",
     	"i_sent_monero": "Ik heb Monero verzonden",
     	"i_received_monero": "Ik heb Monero ontvangen",
