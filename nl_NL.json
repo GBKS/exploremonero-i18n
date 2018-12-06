@@ -144,11 +144,11 @@
         },
         "project_info": {
             "title": "Project Info",
-            "text": "Deze verkenner is ontwikkeld en ontworpen door <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> . Zeg Hallo op <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> voor feedback, ideen etc. Normaal gebruik ik Analysewesoftware om te zien hoe mensen websites gebruiken, maar aangezien Monero om privacy gaat zijn er geen trackingservices. Laat het me direct weten als je verbeteringen wilt zien."
+            "text": "Deze verkenner is ontwikkeld en ontworpen door <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> . Zeg Hallo op <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> voor feedback, ideen etc. Normaal gebruik ik Analysesoftware om te zien hoe mensen websites gebruiken, maar aangezien Monero om privacy gaat vind je hier geen trackers. Laat het me direct weten als je verbeteringen wilt zien."
         },
         "data": {
             "title": "Data",
-            "text": "Alle data komt van <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>, welches den <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a> verwendet. Ein herzliches Dankeschön an alle Mitwirkenden."
+            "text": "Alle data komt van <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>, welke draait op de <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>. Hartelijk bedankt aan alle bijdragers."
         },
         "contributors": {
             "title": "Vertalers"

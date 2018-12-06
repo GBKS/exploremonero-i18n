@@ -15,3 +15,5 @@ Big thanks to:
 * [Equim](https://github.com/Equim-chan)
 * [einsteinsfool](https://github.com/einsteinsfool)
 * [Gelesztaa](https://github.com/Gelesztaa)
+* [LKenselaar](https://github.com/luuk2016)
+
