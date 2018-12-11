@@ -16,4 +16,5 @@ Big thanks to:
 * [einsteinsfool](https://github.com/einsteinsfool)
 * [Gelesztaa](https://github.com/Gelesztaa)
 * [LKenselaar](https://github.com/luuk2016)
+* [HOXSEC](https://github.com/hoxsec)
 

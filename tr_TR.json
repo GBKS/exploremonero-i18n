@@ -1,0 +1,160 @@
+{
+    "general": {
+        "amount": "Miktar",
+        "amount_received": "Alinan Miktar",
+        "amount_sent": "Gönderilen Miktar",
+        "auto_refresh": "Otomatik yenileme",
+        "block": "Blok ::: Bloklar",
+        "block_height": "Blok yüksekliği",
+        "click_to_start": "Başlamak için tıklayın",
+        "confirmation": "Onaylamak",
+        "created": "Oluşturulan",
+        "details": "Ayrıntılar",
+        "difficulty": "zorluk",
+        "fee": "Ücret ::: Ücretler",
+        "fees_per_kb": "Ücret KB başına",
+        "hash_rate": "Hashrate",
+        "key_image": "Anahtar Görüntüsü",
+        "loading": "Yükleniyor...",
+        "median_block_size": "Ortalama blok boyutu",
+        "mining_reward": "Madencilik Ödülü",
+        "mining_transactions": "Madencilik İşlemleri",
+        "mining_reward_transaction": "Madencilik Eşya İşlemleri",
+        "not_provided": "Suan Mevcut değil",
+        "pagination_load_more": "Daha fazla yükle",
+        "paused": "Durdurulmuş",
+        "payment_id": "Ödeme numarası",
+        "payment_id_8": "Ödeme Kimliği 8",
+        "public_key": "Genel Anahtar",
+        "search_placeholder": "Arama İşlemleri, Bloklar...",
+        "second": "Saniye ::: Saniye",
+        "secret_view_key": "Gizli görünüm anahtarı",
+        "size": "Boyut",
+        "size_in_kb": "KB olarak boyut",
+        "stealth_address": "Gizli adres",
+        "time": "Zaman",
+        "transaction_id": "İşlem Kimliği",
+        "transaction": "İşlem",
+        "transactions_total": "İşlem toplamı",
+        "transactions_queued": "İşlemler devam ediyor"
+    },
+    "forms": {
+        "deposit_address": "Mevduat adresiniz",
+        "enter_deposit_address": "Depo adresinizi girin...",
+        "secret_view_key": "Gizli görüntüleme anahtarınız",
+        "enter_secret_key": "Gizli anahtarınızı girin...",
+        "enter_transaction_id": "İşlem kimliğinizi girin...",
+        "recipient_address": "Alıcı adresi",
+        "enter_recipient_address": "Alıcının adresini girin...",
+        "secret_transaction_key": "Gizli işlem anahtarı",
+        "enter_transaction_secret_key": "İşlemin gizli anahtarınızı girin...",
+        "check_deposit": "Kredinizi kontrol edin",
+        "get_receipt": "Makbuz",
+        "errors": {
+            "api_error_title": "Üzgünüz bir sorun var! yanlis olan:",
+            "transaction_id": "Bir işlem kimliği girin.",
+            "monero_address": "Geçerli bir Monero adresi giriniz.",
+            "view_key": "Görüntüleme tuşu View-Key giriniz."
+        }
+    },
+    "nav": {
+        "receipts": "Makbuz",
+        "deposits": "Verim",
+        "blocks": "Bloklar",
+        "queue": "Kuyruk",
+        "info": "Bilgi"
+    },
+    "error": {
+        "check_back_soon": "Sonra geri geliniz.",
+        "load": "Teknik hata. Maalesef, şu anda size veri gösteremiyoruz."
+    },
+    "home": {
+    	"intro": "Ne yapmak istersin?",
+    	"para": "<a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> gizlilik odaklı bir dijital ödeme sistemidir. Bu web sitesi, genel ağ etkinliklerini aramanıza yardımcı olur.",
+    	"i_sent_monero": "Monero'yu yolladım",
+    	"i_received_monero": "Monero'yu aldım",
+    	"view_new_blocks": "Yeni blokları göster",
+    	"view_transaction_queue": "İşlem sırasını göster",
+    	"network_info_and_about": "Ağ Bilgisi ve diger bilgiler",
+        "verify_a_transaction": "Bir işlemi doğrulayın",
+        "explore_the_network": "Ağı keşfedin"
+    },
+    "blocks": {
+        "page_title": "Yeni bloklar",
+        "intro": "Yeni bloklar",
+        "para": "Son zamanlarda çıkarılmış olan bloklar. En son işlemleri içerir.",
+        "block_size_graph_info": "Ortalama ve izin verilen maksimum ile karşılaştırıldığında blok boyutu."
+    },
+    "transaction": {
+        "text": "İşte işlemin genel özeti. Aşağıdaki seçenekleri kullanarak adres ve bilgi miktarının şifresini çözebilirsiniz.",
+        "confirmations_needed": "Kabul edilmek için {count} gerekiyor.",
+        "no_block_assigned": "Herhangi bir bloğa dahil değil.",
+        "inputs": "{count} Girdi (verim) ::: {count} Girdi (verim)",
+        "no_inputs": "Giriş Yok (verim)",
+        "outputs": "{count} çıktı (verim) ::: {count} çıktılar (verim)",
+        "no_outputs": "Çıkış yok (ödeme)",
+        "ring_member": "{count} Yüzük Üyesi ::: {count} Yüzük Üyeleri",
+        "no_ring_members": "Yüzük Üyesi Yok",
+        "get_send_receipt": "Bir iletim sertifikası alın",
+        "verify_deposit": "Para yatırma işlemini doğrulayın",
+        "status": {
+            "done": "Kabul edilen!",
+            "queued": "Sırada...",
+            "sending": "Gönderiliyor..."
+        }
+    },
+    "mempool": {
+        "page_title": "İşlem sırası",
+        "title": "Sıradaki işlemler",
+        "text": "Buradaki işlemler ağ tarafından işlenmeyi ve tanınmayı bekliyor. Bu aynı zamanda Mempool olarak da bilinir."
+    },
+    "deposit": {
+        "page_title": "Mevduat girişi",
+        "form": {
+            "title": "Bir ödemenin alındığını kontrol edin",
+            "text": "Bir işlemin belirli bir adrese para yatırma işlemi içerdiğini ve ağ tarafından doğrulandığını doğrulayın."
+        },
+        "result": {
+            "title": "Ödeme onaylandı",
+            "text": "Bu, ödemenin yapıldığı teyididir. Kanıt olarak bu bağlantıyı başkalarıyla paylaşabilirsiniz.",
+            "check_another_deposit": "Başka bir ödeme yapiniz"
+        }
+    },
+    "receipt": {
+        "page_title": "Nakliye makbuzu",
+        "form": {
+            "title": "Nakliye makbuzu lutfen aliniz",
+            "text": "Burada belirli bir adrese Monero yolladığınızı kanıtlayabilirsiniz. <a href=\"https://getmonero.org/resources/user-guides/prove-payment.html\" target=\"_blank\">Kılavuzu görüntüle</a>."
+        },
+        "result": {
+            "title": "İşlem onaylandı",
+            "text": "Bu işlemin gönderildiği makbuz. Kanıt olarak bu bağlantıyı başkalarıyla paylaşabilirsiniz.",
+            "check_another_transaction": "Başka bir işlemi kontrol etiniz"
+        }
+    },
+    "info": {
+        "page_title": "Explore Monero hakkinda",
+        "network_info": {
+            "title": "Ağ bilgisi",
+            "text": "Monero ağının mevcut durumu hakkında istatistik"
+        },
+        "about": {
+            "title": "Yaklaşık",
+            "text": "Sahnelerin arkasına bir bakış."
+        },
+        "project_info": {
+            "title": "Proje Bilgisi",
+            "text": "Bu kaşif geliştirildi ve tarafından tasarlandı <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a> . Merhaba de <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> Geri bildirimler, fikirler vb. için. Normalde, kullanıcıların web sitelerini nasıl kullandığını görmek için analiz yazılımını kullanırım, ancak Monero'nun gizliliğinden bu yana herhangi bir izleyici bulamazsınız. Gelişmeleri görmek istiyorsanız hemen bildirin."
+        },
+        "data": {
+            "title": "Veri",
+            "text": "Tüm veriler <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>, hangi üzerinde çalışır <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>. Katkıda bulunan herkese teşekkür ederiz."
+        },
+        "contributors": {
+            "title": "Tercümanlar"
+        },
+        "donation": {
+            "title": "Bağış adresi (Çok teşekkür ederim!)"
+        }
+    }
+}
