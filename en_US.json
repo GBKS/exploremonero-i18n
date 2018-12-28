@@ -36,7 +36,8 @@
         "transaction_id": "Transaction ID",
         "transaction": "Transaction ::: Transactions",
         "transactions_total": "Total transactions",
-        "transactions_queued": "Queued transactions"
+        "transactions_queued": "Queued transactions",
+        "testnet": "Testnet"
     },
     "forms": {
         "deposit_address": "Your deposit address",
