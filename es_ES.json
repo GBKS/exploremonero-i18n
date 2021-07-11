@@ -1,0 +1,166 @@
+
+{
+    "general": {
+        "amount": "Cantidad",
+        "amount_received": "Cantidad recibida",
+        "amount_sent": "Cantidad enviada",
+        "auto_refresh": "Refrescar automáticamente",
+        "block": "Bloque ::: Bloques",
+        "block_height": "Altura del bloque",
+        "click_to_start": "Haga click para comenzar",
+        "confirmation": "Confirmación ::: Confirmaciones",
+        "created": "Creado",
+        "details": "Detalles",
+        "difficulty": "Dificultad",
+        "fee": "Fee ::: Comisiones",
+        "fees_per_kb": "Comisiones por KB",
+        "hash_rate": "Índice de procesamiento",
+        "key_image": "Imagen de la clave",
+        "loading": "Cargando",
+        "median_block_size": "Tamaño medio del bloque",
+        "mining_reward": "Recompensa de minería",
+        "mining_transactions": "Transacción de minera",
+        "mining_reward_transaction": "Transacción de la recompensa de minería",
+        "not_provided": "No suministrado",
+        "pagination_load_more": "Cargar más",
+        "paused": "Pausado",
+        "payment_id": "ID de pago",
+        "payment_id_8": "ID de pago (8-Byte)",
+        "public_key": "Clave pública",
+        "search_placeholder": "Buscar transacciones, bloques...",
+        "second": "Segundo ::: Segundos",
+        "secret_view_key": "Clave privada/secreta de visualización",
+        "size": "Tamaño",
+        "size_in_kb": "Tamaño en KB",
+        "stealth_address": "Dirección secreta",
+        "time": "Tiempo",
+        "transaction_id": "ID de la transacción",
+        "transaction": "transacción ::: transacciones",
+        "transactions_total": "Total de transacciones",
+        "transactions_queued": "Transacciones en cola",
+        "testnet": "Testnet"
+    },
+    "forms": {
+        "deposit_address": "Dirección de depósito",
+        "enter_deposit_address": "Introduzca su dirección de depósito...",
+        "secret_view_key": "Su clave secreta de visualización",
+        "enter_secret_key": "Introduzca su clave secreta de visualización...",
+        "enter_transaction_id": "Introduzca el ID de la transacción...",
+        "recipient_address": "Dirección del destinatario",
+        "enter_recipient_address": "Introduzca la dirección del destinatario..",
+        "secret_transaction_key": "Clave secreta de la transacción",
+        "enter_transaction_secret_key": "Introduzca la clave secreta de la transacción...",
+        "check_deposit": "Verificar depósito",
+        "get_receipt": "Obtener recibo",
+        "errors": {
+            "api_error_title": "Disculpe, hubo un problema. Aquí está lo que sucedió:",
+            "transaction_id": "Por favor introduzca el ID de la transacción.",
+            "monero_address": "Por favor introduzca una dirección de Monero valida.",
+            "view_key": "Por favor introduzca una clave de visualización."
+        }
+    },
+    "nav": {
+        "receipts": "Recibos",
+        "deposits": "Depósitos",
+        "blocks": "Bloques",
+        "queue": "En cola",
+        "info": "Información"
+    },
+    "error": {
+        "check_back_soon": "Vuelva a consultar pronto...",
+        "load": "Disculpe, problemas técnicos. No podemos mostrarle ningún dato en este momento."
+    },
+    "home": {
+    	"intro": "¿Qué le gustaría hacer?",
+    	"para": "<a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> es un sistema digital de pagos centrado en la confidencialidad. Esta herramienta le permite explorar fácilmente la actividad pública de la red.",
+    	"i_sent_monero": "Yo envíe Monero",
+    	"i_received_monero": "Yo recibí Monero",
+    	"view_new_blocks": "Ver los últimos bloques",
+    	"view_transaction_queue": "Ver transacciones en cola",
+    	"network_info_and_about": "Información de la red y acerca del proyecto",
+        "verify_a_transaction": "Verificar una transacción",
+        "explore_the_network": "Explorar la red"
+    },
+    "blocks": {
+        "page_title": "Últimos bloques",
+        "intro": "Últimos bloques",
+        "para": "Estos son los últimos bloques minados con las últimas transacciones.",
+        "block_size_graph_info": "Tamaño del bloque comparado con la mediana y el máximo permitido."
+    },
+    "block": {
+        "intro": "Detalles del bloque",
+        "para": "Detalles del bloque y de la transacción."
+    },
+    "transaction": {
+        "text": "Este es un resumen público de la transacción. Puede descifrar la dirección y la cantidad con las opciones presentes abajo.",
+        "confirmations_needed": "{count} necesarias para completarse.",
+        "no_block_assigned": "Todavía no se ha asignado ningún bloque",
+        "inputs": "{count} input (Depósito) ::: {count} inputs (Depósitos)",
+        "no_inputs": "No hay inputs (Depósitos)",
+        "outputs": "{count} output (Retiro) ::: {count} outputs (Retiros)",
+        "no_outputs": "No hay outputs (Retiros)",
+        "ring_member": "{count} miembro del circulo ::: {count} miembros del circulo",
+        "no_ring_members": "No hay miembros del circulo",
+        "get_send_receipt": "Obtener recibo de envío",
+        "verify_deposit": "Verificar depósito",
+        "status": {
+            "done": "¡Hecho!",
+            "queued": "En cola...",
+            "sending": "Enviando..."
+        }
+    },
+    "mempool": {
+        "page_title": "Cola de transacciones",
+        "title": "Transacciones en cola",
+        "text": "Estas transacciones están esperando para ser procesadas y confirmadas por la red. Esto también se conoce como mempool."
+    },
+    "deposit": {
+        "page_title": "Recibo de depósito",
+        "form": {
+            "title": "Verificar si un depósito fue recibido",
+            "text": "Verificar que una transacción incluyo un depósito a una dirección especifica, y vea si ha sido confirmada por la red."
+        },
+        "result": {
+            "title": "Depósito confirmado",
+            "text": "Esta es una confirmación de que se ha realizado el depósito. Puedes compartir este enlace con otros como prueba.",
+            "check_another_deposit": "Verificar otro depósito"
+        }
+    },
+    "receipt": {
+        "page_title": "Recibo de envío",
+        "form": {
+            "title": "Obtener un recibo de la transacción",
+            "text": "Aquí puedes probar que enviaste Monero a una dirección específica. <a href=\"https://getmonero.org/resources/user-guides/prove-payment.html\" target=\"_blank\">Ver guía</a>."
+        },
+        "result": {
+            "title": "Transacción confirmada",
+            "text": "Este es un recibo de que se ha enviado la transacción. Puede compartir este enlace con otros como prueba.",
+            "check_another_transaction": "Verificar otra transacción"
+        }
+    },
+    "info": {
+        "page_title": "Acerca de Explore Monero",
+        "network_info": {
+            "title": "Información de la red",
+            "text": "Estadísticas acerca del estado actual de la red de Monero."
+        },
+        "about": {
+            "title": "Acerca",
+            "text": "Un vistazo detrás de escena."
+        },
+        "project_info": {
+            "title": "Información del proyecto",
+            "text": "Este explorador es desarrollado y diseñado por <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a>. Dí hola en <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> para dar comentarios, ideas, etc. Usualmente utilizo herramientas de análisis para entender como la gente usa un sitio web, pero como Monero se centra en la privacidad, no hay servicios de rastreo funcionando. Así que tendrás que hacerme saber directamente las mejoras que te gustaría ver."
+        },
+        "data": {
+            "title": "Datos",
+            "text": "Todos los datos son cargados de <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a> el cual utiliza <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">Onion Monero Blockchain Explorer</a>. Muchas gracias a todos los contribuyentes."
+        },
+        "contributors": {
+            "title": "Traductores"
+        },
+        "donation": {
+            "title": "Dirección de donaciones (¡Gracias!)"
+        }
+    }
+}
