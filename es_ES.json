@@ -12,7 +12,7 @@
         "created": "Creado",
         "details": "Detalles",
         "difficulty": "Dificultad",
-        "fee": "Fee ::: Comisiones",
+        "fee": "Comisión ::: Comisiones",
         "fees_per_kb": "Comisiones por KB",
         "hash_rate": "Índice de procesamiento",
         "key_image": "Imagen de la clave",
@@ -35,7 +35,7 @@
         "stealth_address": "Dirección secreta",
         "time": "Tiempo",
         "transaction_id": "ID de la transacción",
-        "transaction": "transacción ::: transacciones",
+        "transaction": "Transacción ::: Transacciones",
         "transactions_total": "Total de transacciones",
         "transactions_queued": "Transacciones en cola",
         "testnet": "Testnet"
@@ -43,7 +43,7 @@
     "forms": {
         "deposit_address": "Dirección de depósito",
         "enter_deposit_address": "Introduzca su dirección de depósito...",
-        "secret_view_key": "Su clave secreta de visualización",
+        "secret_view_key": "Clave secreta de visualización",
         "enter_secret_key": "Introduzca su clave secreta de visualización...",
         "enter_transaction_id": "Introduzca el ID de la transacción...",
         "recipient_address": "Dirección del destinatario",
