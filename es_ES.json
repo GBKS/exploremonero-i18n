@@ -12,7 +12,7 @@
         "created": "Creado",
         "details": "Detalles",
         "difficulty": "Dificultad",
-        "fee": "Comisión ::: Comisiones",
+        "fee": "Fee ::: Comisiones",
         "fees_per_kb": "Comisiones por KB",
         "hash_rate": "Índice de procesamiento",
         "key_image": "Imagen de la clave",
@@ -35,16 +35,16 @@
         "stealth_address": "Dirección secreta",
         "time": "Tiempo",
         "transaction_id": "ID de la transacción",
-        "transaction": "Transacción ::: Transacciones",
+        "transaction": "transacción ::: transacciones",
         "transactions_total": "Total de transacciones",
         "transactions_queued": "Transacciones en cola",
         "testnet": "Testnet"
     },
     "forms": {
         "deposit_address": "Dirección de depósito",
-        "enter_deposit_address": "Introduzca su dirección de depósito...",
-        "secret_view_key": "Clave secreta de visualización",
-        "enter_secret_key": "Introduzca su clave secreta de visualización...",
+        "enter_deposit_address": "Introduzca la dirección de depósito...",
+        "secret_view_key": "Su clave secreta de visualización",
+        "enter_secret_key": "Introduzca la clave secreta de visualización...",
         "enter_transaction_id": "Introduzca el ID de la transacción...",
         "recipient_address": "Dirección del destinatario",
         "enter_recipient_address": "Introduzca la dirección del destinatario..",
@@ -118,7 +118,7 @@
         "page_title": "Recibo de depósito",
         "form": {
             "title": "Verificar si un depósito fue recibido",
-            "text": "Verificar que una transacción incluyo un depósito a una dirección especifica, y vea si ha sido confirmada por la red."
+            "text": "Verifique que una transacción incluyo un depósito a una dirección especifica, y vea si ha sido confirmada por la red."
         },
         "result": {
             "title": "Depósito confirmado",
