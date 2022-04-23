@@ -118,7 +118,7 @@
         "page_title": "Recibo de depósito",
         "form": {
             "title": "Verificar si un depósito fue recibido",
-            "text": "Verifique que una transacción incluyo un depósito a una dirección especifica, y vea si ha sido confirmada por la red."
+            "text": "Verifique que una transacción incluyó un depósito a una dirección especifica, y vea si ha sido confirmada por la red."
         },
         "result": {
             "title": "Depósito confirmado",
@@ -150,7 +150,7 @@
         },
         "project_info": {
             "title": "Información del proyecto",
-            "text": "Este explorador es desarrollado y diseñado por <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a>. Dí hola en <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> para dar comentarios, ideas, etc. Usualmente utilizo herramientas de análisis para entender como la gente usa un sitio web, pero como Monero se centra en la privacidad, no hay servicios de rastreo funcionando. Así que tendrás que hacerme saber directamente las mejoras que te gustaría ver."
+            "text": "Este explorador es desarrollado y diseñado por <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a>. Di hola en <a href=\"https://twitter.com/gbks\" target=\"_blank\">Twitter</a> para dar comentarios, ideas, etc. Usualmente utilizo herramientas de análisis para entender cómo la gente usa un sitio web, pero como Monero se centra en la privacidad, no hay servicios de rastreo funcionando. Así que tendrás que hacerme saber directamente las mejoras que te gustaría ver."
         },
         "data": {
             "title": "Datos",
