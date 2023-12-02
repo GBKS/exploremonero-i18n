@@ -26,6 +26,7 @@
         "payment_id": "Payment ID",
         "payment_id_8": "Payment ID (8-Byte)",
         "public_key": "Public key",
+        "recipient_address": "Recipient address",
         "search_placeholder": "Search transactions, blocks...",
         "second": "Second ::: Seconds",
         "secret_view_key": "Private/secret view key",
